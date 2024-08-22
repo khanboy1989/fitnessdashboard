@@ -12,10 +12,11 @@ extension Color {
     static let primaryBlue = Color(hex: "#61C2DB")
     static let accentCyan = Color(hex: "#76E4F7")
     static let darkBackground = Color(hex: "#1A1A1A")
-    static let lightGray = Color(hex: "#D4D4D4")
+    static let lightGray = Color(hex: "#3A3A3C")
     static let redAccent = Color(hex: "#F75C5C")
     static let softWhite = Color(hex: "#EDEDED")
     static let mutedTeal = Color(hex: "#2BA3A3")
+    static let darkGray = Color(hex: "#1C1C1E")
 }
 
 extension Color {

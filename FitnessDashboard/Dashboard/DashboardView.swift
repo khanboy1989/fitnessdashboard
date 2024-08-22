@@ -9,8 +9,22 @@ import SwiftUI
 
 struct DashboardView: View {
     var body: some View {
-        VStack(spacing: 20) {
-            ProfileView()
+        ZStack {
+            // Gradient Background
+            LinearGradient(gradient: Gradient(colors: [
+                        Color.lightGray,  // Light Gray
+                        Color.darkGray   // Dark Gray
+                    ]), startPoint: .top, endPoint: .bottom)
+                    .edgesIgnoringSafeArea(.all)
+    
+            ScrollView {
+                VStack {
+                    ProfileView()
+                    Spacer()
+                }.ignoresSafeArea()
+                    .padding(.vertical)
+            }
+            
         }
     }
 }
