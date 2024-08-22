@@ -19,7 +19,7 @@ struct DashboardView: View {
     
             ScrollView {
                 VStack {
-                    ProfileView()
+                    ProfileHeaderView()
                     Spacer()
                 }.ignoresSafeArea()
                     .padding(.vertical)

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ProfileView: View {
+struct ProfileHeaderView: View {
     var body: some View {
         HStack(alignment: .center) {
             HStack(alignment: .top, spacing: 4) {
@@ -54,7 +54,7 @@ struct ProfileView: View {
                     Color.darkGray   // Dark Gray
                 ]), startPoint: .top, endPoint: .bottom)
                 .edgesIgnoringSafeArea(.all)
-        ProfileView()
+        ProfileHeaderView()
             .previewLayout(.sizeThatFits)
     }
     
