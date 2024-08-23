@@ -17,6 +17,7 @@
 		548ACC4C2C77C77100121325 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548ACC4B2C77C77100121325 /* DashboardView.swift */; };
 		548ACC4E2C77C77D00121325 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548ACC4D2C77C77D00121325 /* ProfileHeaderView.swift */; };
 		548ACC512C77C7C500121325 /* Colors+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548ACC502C77C7C500121325 /* Colors+Ext.swift */; };
+		EB1678192C78BFAF00C607CC /* CustomProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1678182C78BFAF00C607CC /* CustomProgressBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		548ACC4B2C77C77100121325 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		548ACC4D2C77C77D00121325 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 		548ACC502C77C7C500121325 /* Colors+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Colors+Ext.swift"; sourceTree = "<group>"; };
+		EB1678182C78BFAF00C607CC /* CustomProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgressBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				548ACC4D2C77C77D00121325 /* ProfileHeaderView.swift */,
+				EB1678182C78BFAF00C607CC /* CustomProgressBar.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				548ACC222C77C64100121325 /* ContentView.swift in Sources */,
 				548ACC4C2C77C77100121325 /* DashboardView.swift in Sources */,
 				548ACC202C77C64100121325 /* FitnessDashboardApp.swift in Sources */,
+				EB1678192C78BFAF00C607CC /* CustomProgressBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +465,7 @@
 				DEVELOPMENT_TEAM = URW7UZ7N64;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -490,6 +495,7 @@
 				DEVELOPMENT_TEAM = URW7UZ7N64;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

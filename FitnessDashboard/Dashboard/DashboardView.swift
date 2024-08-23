@@ -11,9 +11,10 @@ struct DashboardView: View {
     var body: some View {
         ZStack {
             // Gradient Background
-            LinearGradient(gradient: Gradient(colors: [
-                        Color.lightGray,  // Light Gray
-                        Color.darkGray   // Dark Gray
+            LinearGradient(gradient:
+                            Gradient(colors: [
+                        Color.lightGray,
+                        Color.darkGray
                     ]), startPoint: .top, endPoint: .bottom)
                     .edgesIgnoringSafeArea(.all)
     
