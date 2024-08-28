@@ -18,6 +18,7 @@
 		548ACC4E2C77C77D00121325 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548ACC4D2C77C77D00121325 /* ProfileHeaderView.swift */; };
 		548ACC512C77C7C500121325 /* Colors+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548ACC502C77C7C500121325 /* Colors+Ext.swift */; };
 		54C753402C7E6ACD001C57A6 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C7533F2C7E6ACD001C57A6 /* Date+Ext.swift */; };
+		54C753432C7EF3CC001C57A6 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 54C753422C7EF3CC001C57A6 /* ComposableArchitecture */; };
 		EB1678192C78BFAF00C607CC /* CustomProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1678182C78BFAF00C607CC /* CustomProgressBar.swift */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54C753432C7EF3CC001C57A6 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +184,9 @@
 			dependencies = (
 			);
 			name = FitnessDashboard;
+			packageProductDependencies = (
+				54C753422C7EF3CC001C57A6 /* ComposableArchitecture */,
+			);
 			productName = FitnessDashboard;
 			productReference = 548ACC1C2C77C64100121325 /* FitnessDashboard.app */;
 			productType = "com.apple.product-type.application";
@@ -254,6 +259,9 @@
 				Base,
 			);
 			mainGroup = 548ACC132C77C64100121325;
+			packageReferences = (
+				54C753412C7EF3CC001C57A6 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = 548ACC1D2C77C64100121325 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -634,6 +642,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		54C753412C7EF3CC001C57A6 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.14.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		54C753422C7EF3CC001C57A6 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 54C753412C7EF3CC001C57A6 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 548ACC142C77C64100121325 /* Project object */;
 }
